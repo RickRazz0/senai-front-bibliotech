@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiblioTech - Biblioteca Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="cabecalho">
+    <div class="logo">Biblio<span>Tech</span></div>
+    <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <button class="btn-acesso">Entrar</button>
+</header>
+
+<section class="hero" id="inicio">
+    <div class="hero-conteudo">
+        <h1 class="titulo-principal">Descubra o mundo dos livros</h1>
+        <p class="subtitulo">Milhares de títulos ao seu alcance. Leitura sem limites para todos.</p>
+        <div class="botoes-hero">
+            <a href="#categorias" class="btn-destaque">Explorar Categorias</a>
+            <a href="#destaques" class="btn-secundario">Ver Destaques</a>
+        </div>
+    </div>
+    <div class="hero-imagem">
+        <div class="livro-destaque"></div>
+        <div class="livro-destaque livro-dois"></div>
+        <div class="livro-destaque livro-tres"></div>
+    </div>
+</section>
+
+<section class="categorias" id="categorias">
+    <h2 class="titulo-secao">Categorias</h2>
+    <div class="grid-categorias">
+        <div class="categoria-item">
+            <div class="icone-categoria">📚</div>
+            <h3>Ficção</h3>
+            <p>Romances, contos e narrativas imaginativas.</p>
+        </div>
+        <div class="categoria-item">
+            <div class="icone-categoria">🔍</div>
+            <h3>Mistério</h3>
+            <p>Suspense, investigação e enigmas para resolver.</p>
+        </div>
+        <div class="categoria-item">
+            <div class="icone-categoria">🚀</div>
+            <h3>Ficção Científica</h3>
+            <p>Futuro, tecnologia e viagens espaciais.</p>
+        </div>
+        <div class="categoria-item">
+            <div class="icone-categoria">🏛️</div>
+            <h3>História</h3>
+            <p>Fatos, biografias e eventos que marcaram o mundo.</p>
+        </div>
+        <div class="categoria-item">
+            <div class="icone-categoria">💡</div>
+            <h3>Autoajuda</h3>
+            <p>Desenvolvimento pessoal e bem-estar.</p>
+        </div>
+        <div class="categoria-item">
+            <div class="icone-categoria">🎨</div>
+            <h3>Artes</h3>
+            <p>Pintura, música, cinema e expressão criativa.</p>
+        </div>
+    </div>
+</section>
+
+<section class="destaques" id="destaques">
+    <h2 class="titulo-secao">Destaques da Semana</h2>
+    <div class="carousel-livros">
+        <div class="card-livro">
+            <div class="capa-livro"></div>
+            <h3>O Senhor dos Anéis</h3>
+            <p class="autor">J.R.R. Tolkien</p>
+            <span class="preco">R$ 89,90</span>
+            <button class="btn-livro">Ler amostra</button>
+        </div>
+        <div class="card-livro">
+            <div class="capa-livro capa-dois"></div>
+            <h3>1984</h3>
+            <p class="autor">George Orwell</p>
+            <span class="preco">R$ 54,90</span>
+            <button class="btn-livro">Ler amostra</button>
+        </div>
+        <div class="card-livro">
+            <div class="capa-livro capa-tres"></div>
+            <h3>Dom Quixote</h3>
+            <p class="autor">Miguel de Cervantes</p>
+            <span class="preco">R$ 42,90</span>
+            <button class="btn-livro">Ler amostra</button>
+        </div>
+        <div class="card-livro">
+            <div class="capa-livro capa-quatro"></div>
+            <h3>Orgulho e Preconceito</h3>
+            <p class="autor">Jane Austen</p>
+            <span class="preco">R$ 39,90</span>
+            <button class="btn-livro">Ler amostra</button>
+        </div>
+        <div class="card-livro">
+            <div class="capa-livro capa-cinco"></div>
+            <h3>Crime e Castigo</h3>
+            <p class="autor">Fiódor Dostoiévski</p>
+            <span class="preco">R$ 47,90</span>
+            <button class="btn-livro">Ler amostra</button>
+        </div>
+    </div>
+</section>
+
+<section class="sobre" id="sobre">
+    <div class="sobre-conteudo">
+        <h2 class="titulo-secao">Sobre a BiblioTech</h2>
+        <p>Somos uma biblioteca digital comprometida em democratizar o acesso ao conhecimento. Aqui você encontra livros de diversas categorias, com leitura online e recursos para facilitar sua jornada literária.</p>
+        <p>Nossa missão é conectar leitores a obras que transformam vidas, promovendo a cultura e a educação de forma acessível e inclusiva.</p>
+    </div>
+    <div class="sobre-imagem"></div>
+</section>
+
+<section class="contato" id="contato">
+    <h2 class="titulo-secao">Fale Conosco</h2>
+    <div class="contato-conteudo">
+        <div class="contato-info">
+            <p><strong>Email:</strong> contato@biblioTech.com.br</p>
+            <p><strong>Telefone:</strong> (11) 3000-0000</p>
+            <p><strong>Endereço:</strong> Av. das Letras, 123 - São Paulo/SP</p>
+        </div>
+        <div class="contato-form">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="E-mail">
+            <textarea placeholder="Mensagem"></textarea>
+            <button class="btn-enviar">Enviar</button>
+        </div>
+    </div>
+</section>
+
+<footer class="rodape">
+    <div class="logo-rodape">Biblio<span>Tech</span></div>
+    <p>&copy; 2024 BiblioTech Biblioteca Digital. Todos os direitos reservados.</p>
+    <div class="redes-sociais">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+</footer>
+
+</body>
+</html>
